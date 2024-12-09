@@ -1,29 +1,26 @@
 # Pruebas Automáticas con Codeception y Cypress
 
-## Clonar el Repositorio
-
 Primero, clona el repositorio utilizando el siguiente comando:
 
 ```bash
 git clone https://github.com/EmersonFernandez/automaticTests.git
 ````
-### Configuraciones e intalaciones de depedencias
+### Configuración e Instalación de Dependencias
 
-### Configuraciones Generales 
-Para ejecutar las pruenas correctamete y visuliza el proyecto se debe tener unas instalaciones y herramientas execiales para el correcto funcionamientos.
-Tener isntalados las siguientes herramientas.
-- Node
-- express
+### Requisitos Previos
+Para ejecutar las pruebas correctamente y visualizar el proyecto, asegúrate de tener instaladas las siguientes herramientas:
+- Node.js
+- Composer
 - xampp
 
-#### Configuración variable de entorno .env
-...json {
+#### Configuración de Variables de Entorno ```bash .env ````
+ ```json`{
   BASE_URL_TEST = url_base # La ruta base de el aplicativo
   DB_HOST = host_name # Nombre del host 
   DB_NAME = name_base # Nombre de la base de dato
   DB_USER = user_base # Usuario de la base de dato
   DB_PASSWORD = password_base # Contraseña de la base de dato
-}...
+}````json
 
 #### Configuraciones para Codeception.
 Para correr las preebas de Codeception debe tener intalado los sguientes Herramientas.
