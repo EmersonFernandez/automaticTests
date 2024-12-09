@@ -15,11 +15,11 @@ Para ejecutar las pruebas correctamente y visualizar el proyecto, asegúrate de 
 
 ### Configuración de Variables de Entorno `.env `
  ```json
-BASE_URL_TEST=url_base
-DB_HOST=host_name
-DB_NAME=name_base
-DB_USER=user_base
-DB_PASSWORD=password_base
+ "BASE_URL_TEST": "url_base",
+  "DB_HOST": "host_name",
+  "DB_NAME": "name_base",
+  "DB_USER": "user_base",
+  "DB_PASSWORD": "password_base"
 ````
 
 #### Configuración para Codeception
