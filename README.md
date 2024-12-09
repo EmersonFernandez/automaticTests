@@ -25,22 +25,29 @@ Para ejecutar las pruebas correctamente y visualizar el proyecto, asegúrate de 
 #### Configuración para Codeception
 Para ejecutar las pruebas de Codeception, debes tener instaladas las siguientes herramientas:
  - ChromeDriver: Descárgalo desde [Chrome for Testing](https://googlechromelabs.github.io/chrome-for-testing/) y asegúrate de que sea compatible con la versión de tu navegador Chrome.
-
- - ServerSelemiin : https://github.com/SeleniumHQ/selenium/releases, descargar ultimar version 'selemiun server'
- - Java : Tener Java instalado ultimas versiones.
+ - Selenium Server: Descárgalo desde [Selenium Releases](https://github.com/SeleniumHQ/selenium/releases) e instala la última versión disponible de "Selenium Server".
+ - Java: Asegúrate de tener instalada la última versión de Java.
    
-Nota : Recomendable tener el chromedirver y el server selimiun en una sola carpeta.
+Nota: Es recomendable tener tanto ChromeDriver como Selenium Server en una misma carpeta para facilitar la ejecución.
 
-### Instalaccíones
-Para instalar la despedencias de Condeception.
+#### Instalación de Dependencias
+##### Codeception
+Para instalar las dependencias de Codeception, ejecuta:
+bash
+Copiar código
+
+```bash
 composer i
-
-Parar Instalar la depedencias de Cypress.
+````
+##### Cypress
+Para instalar las dependencias de Cypress, ejecuta:
+```bash
 npm i
+````
 
-### Información del proyecto
-Este proyecto es un sistama simple de autenticación de usuarios y registro de usuario, con el cual vamos a realizar las pruebas automaticas.
-Ya clondo el reposorio puede acceder al sistema desde esta rura : http://localhost/<nombre-carpeta_clonada>.
+### Información del Proyecto
+Este proyecto es un sistema simple de autenticación de usuarios y registro de usuarios. Las pruebas automáticas se realizarán sobre este sistema.
+Una vez clonado el repositorio, podrás acceder al sistema en la siguiente ruta: `http://localhost/<nombre-carpeta_clonada>`
 
 ### Comandos para correr las pruebas
 - Para ejecutar las pruebas acutomaticas de codeception: php vendor/bin/codecept run acceptance
