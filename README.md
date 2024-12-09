@@ -28,7 +28,7 @@ Para ejecutar las pruebas de Codeception, debes tener instaladas las siguientes 
  - Selenium Server: Descárgalo desde [Selenium Releases](https://github.com/SeleniumHQ/selenium/releases) e instala la última versión disponible de "Selenium Server".
  - Java: Asegúrate de tener instalada la última versión de Java.
    
-Nota: Es recomendable tener tanto ChromeDriver como Selenium Server en una misma carpeta para facilitar la ejecución.
+*Nota: Es recomendable tener tanto ChromeDriver como Selenium Server en una misma carpeta para facilitar la ejecución.*
 
 ### Instalación de Dependencias
 ##### Codeception
@@ -54,7 +54,7 @@ Una vez clonado el repositorio, podrás acceder al sistema en la siguiente ruta:
    ```bash
     java -jar selenium-server-<version>.jar standalone
    ````
-   Nota: Reemplaza <version> con la versión correspondiente del archivo.
+   *Nota: Reemplaza <version> con la versión correspondiente del archivo.*
 
 2. Ejecutar las pruebas de aceptación:
   - Desde la raíz del proyecto, ejecuta los siguientes comandos para correr todas las pruebas o una prueba específica:
