@@ -48,7 +48,7 @@ Una vez clonado el repositorio, podrás acceder al sistema en la siguiente ruta:
 ```bash
 http://localhost/<nombre-carpeta-clonada>
 ````
- *Nota : Remplazar `<nombre-carpeta-clonada>` por el nombre del la carpeta asignada*
+ *Nota : Remplazar `<nombre-carpeta-clonada>` por el nombre de la carpeta asignada en el xampp*
 
 ### Pasos para correr las pruebas
 ##### Codeception 
