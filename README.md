@@ -64,7 +64,7 @@ Una vez clonado el repositorio, podrás acceder al sistema en la siguiente ruta:
     ````
 ##### Cypress
 1. Ejecutar desde la interfaz de usuario:
-   - Desde la raíz del proyecto, ejecuta :
+  - Desde la raíz del proyecto, ejecuta
    ```bash
    npx cypress open
    ````
@@ -74,6 +74,6 @@ Una vez clonado el repositorio, podrás acceder al sistema en la siguiente ruta:
   - Paso 3: Haz clic en el nombre de la prueba que deseas ejecutar (por ejemplo, `registrar.cy.js`).
 2. Ejecutar desde la línea de comandos:
  - Para correr las pruebas directamente desde la terminal, ejecuta
-  ```bash
-       	 npx cypress run 
-  ````
+   ```bash
+   npx cypress run 
+   ````
