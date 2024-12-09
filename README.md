@@ -24,8 +24,8 @@ Para ejecutar las pruebas correctamente y visualizar el proyecto, asegúrate de 
 
 #### Configuración para Codeception
 Para ejecutar las pruebas de Codeception, debes tener instaladas las siguientes herramientas:
- - ChromeDriver: Descárgalo desde Chrome for Testing y asegúrate de que sea compatible con la versión de tu navegador Chrome.
- - ChormeDrive : [https://googlechromelabs.github.io/chrome-for-testing/](https://googlechromelabs.github.io/chrome-for-testing/), descargar el que es compatible con la versión del navegador
+ - ChromeDriver: Descárgalo desde [https://googlechromelabs.github.io/chrome-for-testing/](https://googlechromelabs.github.io/chrome-for-testing/, Chrome for Testing )y asegúrate de que sea compatible con la versión de tu navegador Chrome.
+
  - ServerSelemiin : https://github.com/SeleniumHQ/selenium/releases, descargar ultimar version 'selemiun server'
  - Java : Tener Java instalado ultimas versiones.
    
