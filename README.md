@@ -48,7 +48,7 @@ Una vez clonado el repositorio, podrás acceder al sistema en la siguiente ruta:
 
 ### Pasos para correr las pruebas
 ##### Codeception 
-1.Iniciar Selenium Server y ChromeDrive:
+1. Iniciar Selenium Server y ChromeDrive:
  - Ejecutar ChromeDirve
  - Abre una terminal (CMD) en la ubicación donde se encuentra el archivo y ejecuta el siguiente comando:
    ```bash
