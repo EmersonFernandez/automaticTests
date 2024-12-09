@@ -33,9 +33,6 @@ Nota: Es recomendable tener tanto ChromeDriver como Selenium Server en una misma
 #### Instalación de Dependencias
 ##### Codeception
 Para instalar las dependencias de Codeception, ejecuta:
-bash
-Copiar código
-
 ```bash
 composer i
 ````
