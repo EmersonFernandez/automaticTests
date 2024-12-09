@@ -46,28 +46,34 @@ npm i
 Este proyecto es un sistema simple de autenticación de usuarios y registro de usuarios. Las pruebas automáticas se realizarán sobre este sistema.
 Una vez clonado el repositorio, podrás acceder al sistema en la siguiente ruta: `http://localhost/<nombre-carpeta_clonada>`
 
-### Pasos para correr las pruebas.
+### Pasos para correr las pruebas
 ##### Codeception 
-Paso 1 : Se debe ejeuctar el chromeDirve y el servidor de serlemiun, para el servidor de serlenin se abre el cmd desde la mis carpeta de ubicación y se ejecuta el siguiente comando.
-```bash
- java -jar selenium-server-<version-del-selenin>.jar standalone
-````
-Paso 2 : Se ejecuta el siguiente comadno desde la raiz del proyecto, para ejeuctar las pruebas automaticas de acceptance.
-```bash
-php vendor/bin/codecept run acceptance
-php vendor/bin/codecept run acceptance FirstCest.php
- ````
+1.Iniciar Selenium Server y ChromeDrive:
+ - Ejecutar ChromeDirve
+ - Abre una terminal (CMD) en la ubicación donde se encuentra el archivo y ejecuta el siguiente comando:
+   ```bash
+    java -jar selenium-server-<version>.jar standalone
+   ````
+   Nota: Reemplaza <version> con la versión correspondiente del archivo.
+
+2. Ejecutar las pruebas de aceptación:
+  - Desde la raíz del proyecto, ejecuta los siguientes comandos para correr todas las pruebas o una prueba específica:
+    ```bash
+    php vendor/bin/codecept run acceptance
+    php vendor/bin/codecept run acceptance FirstCest.php
+    ````
 ##### Cypress
-Paso 1 : Se debe ejeuctar el siguiente comando desde la raiz del proyecto.4
-- Ejecutar desde la insterfacea de usuarios :
+1. Ejecutar desde la interfaz de usuario:
+ - Desde la raíz del proyecto, ejecuta :
   ```bash
   npx cypress open
   ````
-  Nota : Este comando abre uns interfaz donde se puede ejeuctar las prueba aotomatica.
-       Paso 1: Abirr la interfaz, Elegir el tipo pruebas que este caso es (E2E testing)
-       Paso 2 : Elegir el navegador que deseas correr las pruebas y dar en comezar.
-       Paso 3 : Dar clic al nombre de la prueba que este caso es (registrar.cy.js)
-- Ejecutar desde la línea de comado :
+ Este comando abrirá una interfaz gráfica que permite gestionar y ejecutar las pruebas automáticas.
+ - Paso 1: Selecciona el tipo de prueba (en este caso, E2E testing).
+ - Paso 2: Elige el navegador donde deseas correr las pruebas y haz clic en "Comenzar".
+ - Paso 3: Haz clic en el nombre de la prueba que deseas ejecutar (por ejemplo, `registrar.cy.js`).
+2. Ejecutar desde la línea de comandos:
+ - Para correr las pruebas directamente desde la terminal, ejecuta
   ```bash
  	 npx cypress run 
   ````
