@@ -5,7 +5,7 @@ Primero, clona el repositorio utilizando el siguiente comando:
 ```bash
 git clone https://github.com/EmersonFernandez/automaticTests.git
 ````
-### Configuración e Instalación de Dependencias
+## Configuración e Instalación de Dependencias
 
 ### Requisitos Previos
 Para ejecutar las pruebas correctamente y visualizar el proyecto, asegúrate de tener instaladas las siguientes herramientas:
@@ -13,7 +13,7 @@ Para ejecutar las pruebas correctamente y visualizar el proyecto, asegúrate de 
 - Composer
 - xampp
 
-#### Configuración de Variables de Entorno `.env `
+### Configuración de Variables de Entorno `.env `
  ```json
   BASE_URL_TEST = url_base # La ruta base de el aplicativo
   DB_HOST = host_name # Nombre del host 
@@ -30,7 +30,7 @@ Para ejecutar las pruebas de Codeception, debes tener instaladas las siguientes 
    
 Nota: Es recomendable tener tanto ChromeDriver como Selenium Server en una misma carpeta para facilitar la ejecución.
 
-#### Instalación de Dependencias
+### Instalación de Dependencias
 ##### Codeception
 Para instalar las dependencias de Codeception, ejecuta:
 ```bash
@@ -42,7 +42,7 @@ Para instalar las dependencias de Cypress, ejecuta:
 npm i
 ````
 
-### Información del Proyecto
+## Información del Proyecto
 Este proyecto es un sistema simple de autenticación de usuarios y registro de usuarios. Las pruebas automáticas se realizarán sobre este sistema.
 Una vez clonado el repositorio, podrás acceder al sistema en la siguiente ruta: `http://localhost/<nombre-carpeta_clonada>`
 
