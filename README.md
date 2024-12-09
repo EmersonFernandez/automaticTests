@@ -13,7 +13,10 @@ Para ejecutar las pruebas correctamente y visualizar el proyecto, asegúrate de 
 - Composer
 - xampp
 
-#### Configuración de Variables de Entorno ```bash .env ````
+#### Configuración de Variables de Entorno 
+```bash
+.env 
+````
  ```json`{
   BASE_URL_TEST = url_base # La ruta base de el aplicativo
   DB_HOST = host_name # Nombre del host 
