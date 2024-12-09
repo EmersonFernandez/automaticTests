@@ -13,17 +13,14 @@ Para ejecutar las pruebas correctamente y visualizar el proyecto, asegúrate de 
 - Composer
 - xampp
 
-#### Configuración de Variables de Entorno 
-```bash
-.env 
-````
- ```json`{
+#### Configuración de Variables de Entorno `.env `
+ ```json
   BASE_URL_TEST = url_base # La ruta base de el aplicativo
   DB_HOST = host_name # Nombre del host 
   DB_NAME = name_base # Nombre de la base de dato
   DB_USER = user_base # Usuario de la base de dato
   DB_PASSWORD = password_base # Contraseña de la base de dato
-}````json
+````
 
 #### Configuraciones para Codeception.
 Para correr las preebas de Codeception debe tener intalado los sguientes Herramientas.
