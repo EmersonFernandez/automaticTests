@@ -54,7 +54,7 @@ Una vez clonado el repositorio, podrás acceder al sistema en la siguiente ruta:
    ```bash
     java -jar selenium-server-<version>.jar standalone
    ````
-   *Nota: Reemplaza `version` con la versión correspondiente del archivo.*
+   *Nota: Reemplaza `<version>` con la versión correspondiente del archivo.*
 
 2. Ejecutar las pruebas de aceptación:
   - Desde la raíz del proyecto, ejecuta los siguientes comandos para correr todas las pruebas o una prueba específica:
