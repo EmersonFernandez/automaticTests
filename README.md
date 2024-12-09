@@ -70,4 +70,4 @@ Paso 1 : Se debe ejeuctar el siguiente comando desde la raiz del proyecto.4
 - Ejecutar desde la línea de comado :
   ```bash
  	 npx cypress run 
-  ``
+  ````
