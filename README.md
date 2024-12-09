@@ -1,9 +1,12 @@
-# Pruebas Automaticas 
-Pruebas Automaticas con codeception &amp; cypress
+# Pruebas Automáticas con Codeception y Cypress
 
-### Clonar repositorio
+## Clonar el Repositorio
+
+Primero, clona el repositorio utilizando el siguiente comando:
+
+```bash
 git clone https://github.com/EmersonFernandez/automaticTests.git
-
+````
 ### Configuraciones e intalaciones de depedencias
 
 ### Configuraciones Generales 
@@ -42,5 +45,5 @@ Este proyecto es un sistama simple de autenticación de usuarios y registro de u
 Ya clondo el reposorio puede acceder al sistema desde esta rura : http://localhost/<nombre-carpeta_clonada>.
 
 ### Comandos para correr las pruebas
-Para ejecutar las pruebas acutomaticas de codeception: php vendor/bin/codecept run acceptance
-Paara ejecutar las pruebas automaticas de cypress: npx cypress open (desde la insterfaz) o npx cypress run (desde la linea de comando)
+- Para ejecutar las pruebas acutomaticas de codeception: php vendor/bin/codecept run acceptance
+- Para ejecutar las pruebas automaticas de cypress: npx cypress open (desde la insterfaz) o npx cypress run (desde la linea de comando)
