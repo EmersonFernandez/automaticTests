@@ -44,7 +44,10 @@ npm i
 
 ## Información del Proyecto
 Este proyecto es un sistema simple de autenticación de usuarios y registro de usuarios. Las pruebas automáticas se realizarán sobre este sistema.
-Una vez clonado el repositorio, podrás acceder al sistema en la siguiente ruta: `http://localhost/<nombre-carpeta_clonada>`
+Una vez clonado el repositorio, podrás acceder al sistema en la siguiente ruta: 
+```bash
+http://localhost/<nombre-carpeta_clonada>
+````
 
 ### Pasos para correr las pruebas
 ##### Codeception 
