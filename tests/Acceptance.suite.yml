@@ -1,0 +1,17 @@
+class_name: AcceptanceTester
+actor: AcceptanceTester
+modules:
+    enabled:
+        - WebDriver:
+            url: '%BASE_URL_TEST%'
+            browser: chrome
+            port: 4444
+        - Db:
+            dsn: 'mysql:host=%DB_HOST%;dbname=%DB_NAME%'
+            user: '%DB_USER%'
+            password: '%DB_PASSWORD%'
+            cleanup: true
+            populate: true
+            transactions: false
+    disabled:
+        - PhpBrowser
