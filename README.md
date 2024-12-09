@@ -64,16 +64,16 @@ Una vez clonado el repositorio, podrás acceder al sistema en la siguiente ruta:
     ````
 ##### Cypress
 1. Ejecutar desde la interfaz de usuario:
-    - Desde la raíz del proyecto, ejecuta :
-     ```bash
-     npx cypress open
-     ````
+   - Desde la raíz del proyecto, ejecuta :
+   ```bash
+   npx cypress open
+   ````
  Este comando abrirá una interfaz gráfica que permite gestionar y ejecutar las pruebas automáticas.
-     - Paso 1: Selecciona el tipo de prueba (en este caso, E2E testing).
-     - Paso 2: Elige el navegador donde deseas correr las pruebas y haz clic en "Comenzar".
-     - Paso 3: Haz clic en el nombre de la prueba que deseas ejecutar (por ejemplo, `registrar.cy.js`).
+  - Paso 1: Selecciona el tipo de prueba (en este caso, E2E testing).
+  - Paso 2: Elige el navegador donde deseas correr las pruebas y haz clic en "Comenzar".
+  - Paso 3: Haz clic en el nombre de la prueba que deseas ejecutar (por ejemplo, `registrar.cy.js`).
 2. Ejecutar desde la línea de comandos:
-     - Para correr las pruebas directamente desde la terminal, ejecuta
-      ```bash
-     	 npx cypress run 
-      ````
+ - Para correr las pruebas directamente desde la terminal, ejecuta
+  ```bash
+       	 npx cypress run 
+  ````
