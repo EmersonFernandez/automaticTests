@@ -13,6 +13,9 @@ Para ejecutar las pruebas correctamente y visualizar el proyecto, asegúrate de 
 - Composer
 - xampp
 - MySql
+  
+### Configuración Base Dato MySql
+El script de la base de dato ulizada esta la carpeta del proyecto `src/database/script.sql`.
 
 ### Configuración de Variables de Entorno `.env `
  ```json
