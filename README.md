@@ -12,6 +12,7 @@ Para ejecutar las pruebas correctamente y visualizar el proyecto, asegúrate de 
 - Node.js
 - Composer
 - xampp
+- MySql
 
 ### Configuración de Variables de Entorno `.env `
  ```json
