@@ -14,8 +14,14 @@ Para ejecutar las pruebas correctamente y visualizar el proyecto, asegúrate de 
 - xampp
 - MySql
   
-### Configuración Base Dato MySql
-El script de la base de dato ulizada esta la carpeta del proyecto `src/database/script.sql`.
+### Configuración de la Base de Datos MySQL
+
+El script para crear la base de datos utilizada se encuentra en la carpeta `src/database/` bajo el nombre `script.sql`.
+Sigue estos pasos para configurar la base de datos:
+
+1. Abre el archivo `script.sql` en un editor de texto.
+2. Ejecuta el script en tu servidor MySQL para crear las tablas necesarias.
+3. Asegúrate de que las credenciales y la configuración en el archivo `.env` coincidan con los detalles de tu base de datos.
 
 ### Configuración de Variables de Entorno `.env `
  ```json
